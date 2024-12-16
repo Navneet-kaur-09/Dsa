@@ -1,4 +1,5 @@
 const arr = ["nemo"];
+const arr1 = [1, 45, "hello", "nemo2", "nemo", "nemo1"]
 
 function find(array){
     let t0 = performance.now();
@@ -10,4 +11,4 @@ function find(array){
     let t1 = performance.now();
     console.log("call to find nemo " + (t1-t0) + " ms.");
 }
-find(arr);
+find(arr1);
